@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #F7F7F7;
+}
+
+#frame {
+	//width: 1000px;
+	height: 800px;
+	margin: 0px auto auto auto;
+	background-color: white;
+}
+
+#header {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bold;
+	height: 120px;
+	background-color: #3498db;
+	color: white;
+	font-size: 300%;
+	padding: 20px;
+}
+
+.row {
+	margin-top: 40px;
+	padding: 0 10px;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.panel-heading div {
+	margin-top: -18px;
+	font-size: 15px;
+}
+
+.panel-heading div span {
+	margin-left: 5px;
+}
+
+.panel-body {
+	display: none;
+}

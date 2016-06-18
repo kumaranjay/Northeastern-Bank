@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+
+
+body {
+	background-color: #F7F7F7;
+}
+
+
+#frame {
+ 	width: 1000px; 
+	height: 800px;
+	margin: 0px auto auto auto;
+	background-color: white;
+}
+
+#header {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: bold;
+	height: 120px;
+	background-color: #3498db;
+	color: white;
+	font-size: 300%;
+	padding: 20px;
+}
+#main1{
+	
+}
+#corousal {
+	height: 300px !important;
+	background-color: white;
+	background-image: url("../images/carousal3.jpg");
+}
+
+.carousel-control{
+	background: rgba(255,255,255,0) !important;
+}
+#login {
+	height: 300px !important;
+	font-size: 80% !important;
+}
+
+.btn-lg{
+	width: 120px !important;
+}
+
+.glyphicon{
+	color: #2980B9;
+}
+
+#registerForm{
+	margin-top: 50px;
+}
+
+#registerBody{
+	height:1000px;
+}
+
+#confirmRegBody{
+	height: 300px;
+	margin: 100px 100px 0px 200px;
+}

@@ -1,0 +1,74 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #F7F7F7;
+}
+
+#frame {
+	height: 1000px;
+	margin: 0px auto auto auto;
+	background-color: white;
+}
+
+#header {
+	height: 120px;
+	color: white;
+	padding: 30px;
+	background: #43D17F;
+}
+
+#sidebar {
+	margin-top: 40px !important;
+	font-size: 80% !important;
+	padding: 0px !important;
+}
+
+#sidebar a {
+	color: black !important;
+}
+
+.active {
+	background: #E0E0E0 !important;
+}
+
+#homebody {
+	margin-top: 100px;
+	/* 	border: 1px solid #3498db; */
+	height: 200px;
+	width: 350px;
+}
+
+#transferBody a {
+	font-size: 70%;
+	color: white;
+	margin-top: 50px;
+}
+
+#transferBody a:hover {
+	color: black;
+}
+
+#transferBody a:hover img {
+	width: 128px;
+	height: 128px;
+}
+
+.toDrop {
+	width: 200px !important;
+}
+
+.transactionSuccess {
+	color: green;
+	font-weight: bold;
+}
+
+#error {
+	background-color: #FFC2C2;
+	color: red;
+	padding-left: 350px;
+}
+
+#image-upload>input {
+	display: none;
+}
+
